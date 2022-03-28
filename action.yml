@@ -1,0 +1,15 @@
+name: 'Raisely Deploy'
+description: 'Deploy styles and components to Raisely'
+inputs:
+  campaign:  # campaign uuid to deploy
+    description: 'The UUID of the campaign to deploy'
+    required: true
+  apikey:  # apikey to use for the deploy
+    description: 'Your Raisely API key (found in Settings > API & Webhooks)'
+    required: true
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+branding:
+  color: purple
+  icon: arrow-up
