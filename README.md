@@ -37,7 +37,7 @@ The Raisely deploy action requires two variables to be passed in as inputs. They
 
 ## License
 
-[MIT](LICENSE.md)
+[NoHarm](LICENSE.md)
 
 ## Contributing
 
